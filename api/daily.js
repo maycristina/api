@@ -2,7 +2,7 @@
 
 export default async function handler(req, res) {
   // O link CSV que o Google Sheets gerou no Passo 1
-  const GOOGLE_SHEET_CSV_URL = 'https://docs.google.com/spreadsheets/d/1oA597GAhJNSHhw_CVJ5HgYWDp4egmOr_lBhhOmlgTY4/view';
+  const GOOGLE_SHEET_CSV_URL = 'https://docs.google.com/spreadsheets/d//1oA597GAhJNSHhw_CVJ5HgYWDp4egmOr_lBhhOmlgTY4/export?format=csv';
 
   try {
     // 1. Faz o fetch dos dados na planilha
